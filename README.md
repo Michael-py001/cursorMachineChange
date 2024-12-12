@@ -50,11 +50,11 @@ chmod +x run.sh
 默认配置文件路径：
 
 ```
-MacOS ="~$HOME~/Library/Application Support/Cursor/User/globalStorage/storage.json"
+MacOS = "~/Library/Application Support/Cursor/User/globalStorage/storage.json"
 
-Windows ="%APPDATA%/Cursor/User/globalStorage/storage.json"
+Windows = "%APPDATA%/Cursor/User/globalStorage/storage.json"
 
-Linux ="!/.config/Cursor/User/globalStorage/storage.json"
+Linux = "~/.config/Cursor/User/globalStorage/storage.json"
 ```
 
 ## Star History
