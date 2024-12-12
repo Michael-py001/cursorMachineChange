@@ -1,6 +1,6 @@
 # Cursor Device ID Changer Pro
 
-> [English](./README_EN.md) | [中文](./README.md)
+> [English](./README.md) | [中文](./README_CN.md)
 
 A simple script tool for modifying the device ID of the Cursor editor. When your device is locked due to frequent account switching, you can use this script to reset the device ID.
 Modified from [this project](https://github.com/fly8888/cursor_machine_id), compatible with MacOS, Windows, and Linux systems.
