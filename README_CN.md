@@ -1,5 +1,7 @@
 # Cursor Device ID Changer Pro
 
+> 🌐️ 中文 | [English](./README.md)
+
 一个简单的脚本工具，用于修改 Cursor 编辑器的设备 ID。当因频繁切换账号导致设备被锁定时，可以使用此脚本重置设备 ID。
 根据[此项目](https://github.com/fly8888/cursor_machine_id)修改而来，兼容了 MacOS、Windows、Linux 系统。
 
