@@ -24,12 +24,16 @@ chmod +x run.sh
 
 4. 运行脚本：
 
+(Windows 系统请使用 Git Bash 运行)
+
 ```bash
 使用随机生成的设备 ID
 ./run.sh
 或者使用自定义设备 ID
 ./run.sh your_custom_id
 ```
+
+5. 重启 Cursor 编辑器
 
 ## 注意事项
 
