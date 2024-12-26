@@ -1,55 +1,55 @@
 # Cursor Device ID Changer Pro
 
-> 🌐️ English | [中文](./README_CN.md)
+> 🌐️ 中文 | [English](./README_EN.md)
 
-A simple script tool for modifying the device ID of the Cursor editor. When your device is locked due to frequent account switching, you can use this script to reset the device ID.
-Modified from [this project](https://github.com/fly8888/cursor_machine_id), compatible with MacOS, Windows, and Linux systems.
+一个简单的脚本工具，用于修改 Cursor 编辑器的设备 ID。当因频繁切换账号导致设备被锁定时，可以使用此脚本重置设备 ID。
+兼容 MacOS、Windows、Linux 系统。
 
-## Use Case
+## 适用场景
 
-When the Chat window prompts: "Too many free trial accounts used on this machine", you can use this script to reset the device ID.
+当 Chat 窗口提示：Too many free trial accounts used on this machine. 时示时，可以使用此脚本重置设备 ID。
 
-## Features
+## 功能特点
 
-- Supports MacOS, Windows, Linux
-- Automatically generates new random device IDs
-- Automatic backup of original configuration files
-- Supports custom device IDs
-- No additional dependencies, uses system built-in tools
+- 支持 MacOS、Windows、Linux
+- 自动生成新的随机设备 ID
+- 自动备份原配置文件
+- 支持自定义设备 ID
+- 无需额外依赖，使用系统内置工具
 
-## Usage
+## 使用方法
 
-1. Download the `run.sh` script
-2. Add execution permissions to the script:
+1. 下载 `run.sh` 脚本
+2. 给脚本添加执行权限：
 
 ```base
 chmod +x run.sh
 ```
 
-3. Make sure to close the Cursor editor before running the script
+3. 请确保在运行脚本前关闭 Cursor 编辑器
 
-4. Run the script:
+4. 运行脚本：
 
-(For Windows systems, please use Git Bash to run)
+(Windows 系统请使用 Git Bash 运行)
 
-```
-# Use randomly generated device ID
+```bash
+使用随机生成的设备 ID
 ./run.sh
-# Or use custom device ID
+或者使用自定义设备 ID
 ./run.sh your_custom_id
 ```
 
-5. Restart the Cursor editor
+5. 重启 Cursor 编辑器
 
-## Notes
+## 注意事项
 
-- The script automatically creates a backup of the configuration file before modification
-- Backup files are saved in the same directory as the original configuration file, in the format storage.json.backup_timestamp
-- Make sure to close the Cursor editor before running the script
+- 脚本会在修改前自动创建配置文件的备份
+- 备份文件保存在原配置文件相同目录下，格式为 `storage.json.backup_时间戳`
+- 请确保在运行脚本前关闭 Cursor 编辑器
 
-## Configuration File Location
+## 配置文件位置
 
-Default configuration file paths:
+默认配置文件路径：
 
 ```
 MacOS = "~/Library/Application Support/Cursor/User/globalStorage/storage.json"
@@ -61,8 +61,8 @@ Linux = "~/.config/Cursor/User/globalStorage/storage.json"
 
 ## Star History
 
-<img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Michael-py001/cursorMachineChange&amp;type=Date">
+[![Star History Chart](https://api.star-history.com/svg?repos=Michael-py001/cursorMachineChange&type=Date)](https://star-history.com/#Michael-py001/cursorMachineChange&Date)
 
-## Disclaimer
+## 免责声明
 
-This script is for learning and research purposes only. Using this script may violate Cursor's terms of service. Please use responsibly and at your own risk.
+本脚本仅供学习和研究使用，使用本脚本可能违反 Cursor 的服务条款。请合理使用，风险自负。
